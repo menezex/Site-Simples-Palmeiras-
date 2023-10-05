@@ -9,6 +9,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: rgba(17, 90, 17, 0.832);
 }
 
 .header {
@@ -23,7 +24,7 @@
 }
 
 .logoNavBar {
-  width: 180px;
+  width: 120px;
   padding: 8px;
 }
 
@@ -58,23 +59,29 @@
 }
 
 .sectionTitle {
-  font-size: 26px;
+  font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 15px;
+  padding-top: 20px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .sectionDescription {
-  padding: 10px;
+  padding: 12px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 1fr;
   grid-template-areas: "mainContent sideBarContent";
   padding: 23px;
+  width: 80%;
+  margin: 0 auto;
   flex: 1 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
 }
 
 .mainContent {
@@ -94,13 +101,13 @@
   padding: 10px;
   border: 2px solid transparent;
   gap: 10px;
-  border-radius: 10px;
+  border-radius: 12px;
   transition: 0.5s;
   cursor: pointer;
 }
 
 .categoryCard:hover {
-  border-color: rgb(17, 90, 17);
+  border-color: rgba(17, 90, 17, 0.679);
 }
 
 .cardLogo {
@@ -109,7 +116,8 @@
 }
 
 .mainCategoryCardTitle {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   padding: 6px;
   text-align: center;
@@ -128,6 +136,7 @@
   color: white;
   padding: 15px;
   border-radius: 10px;
+  width: 90%;
 }
 
 .sectionEstadio {
